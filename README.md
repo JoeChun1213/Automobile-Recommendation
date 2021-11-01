@@ -16,11 +16,9 @@ By using the (Suspension_coil.csv) - Suspension coil tests resulted in multiple 
 A robust technical report was generated which can be used to determine which design choice would be ideal by thinking about both qualitative and quantitative outcomes.
 
 MPG Regression
-By using the four different values that were given in the dataset;
+By using the four different variables in the dataset, we designed four different models for comparison purpose;
 
-I found out that there is a relationship between and and also between and
-
-After the findings, it was clear that the linear model doesn't predict mpg of the prototypes effectively. I would not include any non-substancial metrics in the statistical test anymore.
+I found out that there is only a significant relationship between vehicle length and ground clearance with the mpg variable. And thus, it was clear that the linear model predicts mpg of the prototypes only with those two variables effectively.  
 
 Suspension Coil Summary
 The design specifications for the MechaCar suspension coils tell us that all kind of suspension coils must not exceed 100 pounds per inch. Our coil_summary_table shows that the current manufacturing data meets this design specification with a variance of 62.29.
